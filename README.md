@@ -1,5 +1,5 @@
 # k8s-nfs-subdir-ext-provisioner-helm
-- this command installs the NFS Subdir External Provisioner chart into the Kubernetes cluster, configuring it to use the specified NFS server
+This command installs the NFS Subdir External Provisioner chart into the Kubernetes cluster, configuring it to use the specified NFS server
 and path for dynamic provisioning of PersistentVolumes
 ```bash
 helm install nfs-subdir-external-provisioner \
